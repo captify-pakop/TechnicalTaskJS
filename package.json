@@ -1,0 +1,24 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0",
+    "wdio-chai-plugin": "0.0.2",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2"
+  },
+  "scripts": {
+    "run": "wdio",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
